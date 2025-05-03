@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+.carousel{
+    width: 600px;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.360);
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+.container{
+    transition: transform 0.6s ease-in-out;
+    display: flex;
+}
+
+.slide{
+    position: relative;
+    min-width: 600px;
+    object-fit: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.txt{
+    bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+

@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+}
+
+#box{
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgba(19, 19, 19, 0.459);
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 248, 255, 0.103);
+}
+
+form{
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    transition: .2s;
+    box-shadow: 5px 3px 10px rgba(19, 19, 19, 0.329);
+}
+
+#nome{
+    padding-left: 10px;
+}
+
+#senha{
+    padding-left: 10px;
+}
+
+#btn:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1::after{
+    content: '';
+    width: 5rem;
+    height: 6px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
